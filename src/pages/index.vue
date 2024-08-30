@@ -55,7 +55,7 @@ async function createFiles(files: File[]) {
 
 <template>
   <div b="base 2" mx-auto min-h-100 w-250>
-    <div flex="~" items-center p-4>
+    <div flex="~" items-center bg="#aaa2" p-4>
       <span flex-1 text-start text-lg font-bold>DLSSg to FSR3</span>
       <div flex="~" justify-end gap-4>
         <Button class="" label="CHOOSE DIR" @click="pickDir()" />
